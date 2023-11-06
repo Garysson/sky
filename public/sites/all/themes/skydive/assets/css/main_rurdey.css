@@ -953,6 +953,9 @@ select {
 	margin: auto 100px;
 }
 
+#logo {
+	padding: 10px;
+}
 .header .logo img {
 	width: 100%;
 	height: auto;
@@ -2603,7 +2606,7 @@ footer {
 	display: flex;
 	padding: 0.9375rem 1.25rem;
 	align-items: center;
-	background: #000000;
+	background: rgb(15, 132, 209);
 	/* Footer navigations */
 }
 
@@ -3927,6 +3930,10 @@ a.navbar-item.booknow.text-20.gift-voucher {
 			endColorstr='#00ffffff',
 			GradientType=0
 		);
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-start;
+		flex-direction: row;
 }
 
 @media all and (max-width: 1199.98px) {
@@ -3943,7 +3950,7 @@ a.navbar-item.booknow.text-20.gift-voucher {
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	width: 100%;
+	width: fit-content;
 	max-width: 100%;
 	list-style: none;
 	-webkit-justify-content: center;
@@ -3975,6 +3982,11 @@ a.navbar-item.booknow.text-20.gift-voucher {
 .header-menu.desktop ul li a.active-trail {
 	color: #e1221d;
 }
+.header-menu.desktop svg {
+	width: 10%;
+    height: 80px;
+}
+
 
 @media all and (min-width: 1440px) {
 	.header-menu.desktop ul li {
