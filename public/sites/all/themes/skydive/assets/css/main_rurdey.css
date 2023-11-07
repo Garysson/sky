@@ -1617,11 +1617,11 @@ section.map {
 
 .mobile-navigation .mobile-toggle-menu {
 	padding: 0.75rem 1.25rem;
-	background: #000000;
+	background: rgb(15, 132, 209);
 }
 
 .main-navgitaion-mobile {
-	background: rgba(0, 0, 0, 0.8);
+	background: rgb(16 132 210 / 75%);
 	padding: 1.875rem 0rem;
 	position: absolute;
 	z-index: 999;
@@ -2630,7 +2630,7 @@ footer .nav-bottom li {
 footer .nav-bottom a {
 	font-family: "Gotham Book";
 	font-size: 0.75rem;
-	color: #b6b3b1;
+	color: #ffffff;
 	display: block;
 }
 
@@ -3931,7 +3931,6 @@ a.navbar-item.booknow.text-20.gift-voucher {
 			GradientType=0
 		);
 		display: flex;
-		justify-content: space-around;
 		align-items: flex-start;
 		flex-direction: row;
 }
@@ -3943,7 +3942,7 @@ a.navbar-item.booknow.text-20.gift-voucher {
 }
 
 .header-menu.desktop ul {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	display: -webkit-box;
 	display: -moz-box;
@@ -3984,7 +3983,8 @@ a.navbar-item.booknow.text-20.gift-voucher {
 }
 .header-menu.desktop svg {
 	width: 10%;
-    height: 80px;
+	height: 80px;
+	margin-left: 50px;
 }
 
 
@@ -5024,10 +5024,10 @@ select:-webkit-autofill:focus {
 }
 
 
-@media (min-width: 1024px){
+/* @media (min-width: 1024px){
 .header-menu.desktop ul li:last-child, .main-navgitaion-mobile ul li:last-child {
     display: none;
-}
+} */
 
 .header-menu.desktop ul li:nth-child(9) a{
     border-right:0;
