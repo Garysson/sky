@@ -5264,8 +5264,9 @@ html:lang(zh-hans) body.front .container .video-player .banner-title{
 }**/
 
 .container.hm-page-box .box-slider .slides h3.banner-title {
-    font-size: calc(24px + (40 - 30) * ((100vw - 300px) / (1920 - 1024))) !important
-    line-height: calc(28px + (44 - 32) * ((100vw - 300px) / (1920 - 1024))) !important
+    font-size: calc(24px + (40 - 30) * ((100vw - 300px) / (1920 - 1024))) !important;
+	line-height: calc(28px + (44 - 32) * ((100vw - 300px) / (1920 - 1024))) !important;
+	text-shadow: 2px 2px 8px #0088ff;
 }
 
 
