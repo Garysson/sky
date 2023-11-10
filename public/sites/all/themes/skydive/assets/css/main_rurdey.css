@@ -1594,6 +1594,7 @@ section.map {
 	height: 64px;
 	line-height: 64px;
 	font-family: "Gotham Bold";
+	text-align: center;
 }
 
 @media (max-width: 1199.98px) {
@@ -5428,4 +5429,12 @@ fieldset.captcha.form-wrapper {
 
 .article-buy a {
 	margin: 0 auto;
+}
+
+.price-wrap .box-slider .slides .btn-outline {
+	display: block !important;
+	margin: 10px auto;
+}
+.price-wrap .box-slider .slides .banner-title {
+	margin-bottom: 20px;
 }
